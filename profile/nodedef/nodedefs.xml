@@ -1,0 +1,36 @@
+<nodeDefs>
+    <nodeDef id="controller" nls="controller">
+        <editors />
+        <sts>
+            <st id="ST" editor="bool" />
+        </sts>
+        <cmds>
+            <sends />
+            <accepts>
+                <cmd id="QUERY" />
+                <cmd id="DISCOVER" />
+            </accepts>
+        </cmds>
+    </nodeDef>
+    
+    <nodeDef id="weather" nls="weather">
+        <editors />
+        <sts>
+            <st id="ST" editor="TEMPERATURE" />
+            <st id="CLITEMP" editor="TEMPERATURE" />
+            <st id="CLIHUM" editor="PERCENT" />
+            <st id="BARPRES" editor="PRESSURE" />
+            <st id="WINDDIR" editor="DEGREES" />
+            <st id="WINDSPD" editor="MPH" />
+            <st id="RAINRT" editor="RAIN" />
+            <st id="GV0" editor="PERCENT" />
+            <st id="GV1" editor="STRING" />
+        </sts>
+        <cmds>
+            <sends />
+            <accepts>
+                <cmd id="QUERY" />
+            </accepts>
+        </cmds>
+    </nodeDef>
+</nodeDefs>

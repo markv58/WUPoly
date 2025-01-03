@@ -1,0 +1,21 @@
+# controller
+ND-controller-NAME = Weather Controller
+ND-controller-ICON = GenericCtl
+ST-controller-ST-NAME = NodeServer Status
+
+# weather node
+ND-weather-NAME = Weather Station
+ND-weather-ICON = Weather
+ST-weather-ST-NAME = Temperature
+ST-weather-CLITEMP-NAME = Temperature
+ST-weather-CLIHUM-NAME = Humidity
+ST-weather-BARPRES-NAME = Barometric Pressure
+ST-weather-WINDDIR-NAME = Wind Direction
+ST-weather-WINDSPD-NAME = Wind Speed
+ST-weather-RAINRT-NAME = Rain Rate
+ST-weather-GV0-NAME = Chance of Rain
+ST-weather-GV1-NAME = Conditions
+
+# Status
+ST-0 = Offline
+ST-1 = Online
