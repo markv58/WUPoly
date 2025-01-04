@@ -1,0 +1,24 @@
+{
+  "name": "Weather Underground",
+  "type": "python3",
+  "executable": "WU-poly.py",
+  "description": "Weather Underground integration for ISY994i",
+  "notice": "Requires Weather API key from weatherapi.com",
+  "shortPoll": "300",
+  "longPoll": "900",
+  "profile_version": "1.0.0",
+  "credits": [
+    {
+      "title": "Weather Underground NodeServer",
+      "author": "Robert Paauwe",
+      "version": "1.0.0",
+      "date": "March 14, 2024",
+      "source": "https://github.com/UniversalDevicesInc/udi-poly-weather",
+      "license": "MIT"
+    }
+  ],
+  "customParams": {
+    "api_key": "Enter your Weather API key",
+    "location": "Enter location (ZIP, city,state, or lat,lon)"
+  }
+}
